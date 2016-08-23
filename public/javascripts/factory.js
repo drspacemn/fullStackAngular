@@ -1,5 +1,7 @@
 app.factory('mainFactory', function($http){
 	return {
-		num: 4
+		all: function(){
+			return $http.get('/api/pirates');
+		}
 	}
 })
