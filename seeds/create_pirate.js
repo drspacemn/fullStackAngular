@@ -6,7 +6,7 @@ exports.seed = function(knex, Promise) {
       return Promise.all([
         // Inserts seed entries
         knex('pirates').insert({name: 'Anne Bonney',poison: 'Rum',accessory: 'hot temper'}),
-        knex('pirates').insert({name: 'Jim Blows',poison: 'margs',accessory: 'pegged leg'}),
+        knex('pirates').insert({name: 'Jim the Black Beard',poison: 'margs',accessory: 'pegged leg'}),
         knex('pirates').insert({name: 'Ben Rules',poison: 'beer',accessory: 'parrot'})
       ]);
     });
